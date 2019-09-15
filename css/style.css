@@ -139,7 +139,7 @@ legend {
 }
 body {
   font-size: 16px;
-  font-family: -apple-system, "Microsoft YaHei", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+  font-family: consolas;
   line-height: 1.5;
   background-color: #fff;
   word-wrap: break-word;
@@ -441,7 +441,7 @@ body {
 }
 .markdown-body code,
 .markdown-body kbd {
-  font-family: monospace, monospace;
+  font-family: consolas;
   font-size: 1em;
 }
 .markdown-body hr {
@@ -464,7 +464,6 @@ body {
   box-sizing: border-box;
 }
 .markdown-body input {
-  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }

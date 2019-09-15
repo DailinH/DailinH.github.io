@@ -1,24 +1,13 @@
-.archive-meta h3 {
-    line-height: 2.0;
+.archives {
+  padding-left: 1.75em;
 }
-
-.archive-meta sup {
-    font-size: 10px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px; 
-    border-radius: 5px;
-    background: #ddd none repeat scroll 0 0;
-    vertical-align: top;
+.archives .archive-article-link {
+  color: #4a4a4a;
 }
-
-.archive-meta span {
-    margin-right: 20px;
+.archives .archive-article-link:hover {
+  color: #7cc04b;
 }
-
-.archive-meta .archive-list-count::before {
-    content: " (";
-}
-
-.archive-meta .archive-list-count::after {
-    content: ")";
+.archives .archive-article-date {
+  color: #999;
+  margin-left: 8px;
 }
